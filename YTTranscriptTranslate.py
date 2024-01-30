@@ -67,7 +67,7 @@ try:
             
         if my_language_code_exists and count==1:
             translated = transcript.translate(my_language_code).fetch()
-            # print(translated)
+            print(translated)
             transcriptOfTranslated = []
             for x in translated:
                 translatedtxt = (x['text'])
